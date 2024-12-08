@@ -68,14 +68,6 @@ def __(df_1, df_filled, imputer):
 
 
 @app.cell
-def __(df_1, plt):
-    box_plot_cols = df_1[['Hardness', 'Conductivity']]
-    box_plot_cols.plot(kind='box')
-    plt.show()
-    return (box_plot_cols,)
-
-
-@app.cell
 def __(df_1, plt, sns):
     sns.countplot(df_1, x=df_1['Potability'])
     plt.show()
