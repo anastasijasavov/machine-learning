@@ -1,0 +1,10 @@
+{
+  "max_len": 200,
+  "vocab_size": 20000,
+  "oov_token": "<OOV>",
+  "best_threshold": 0.2,
+  "label_map_out": {
+    "0": "negative",
+    "1": "positive"
+  }
+}
